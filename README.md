@@ -10,6 +10,6 @@ Through the contact page the user can get in touch with me for the services he/s
 # **page 4 - portfolio** 📍
 The portfolio page has been inserted in the header but not yet built: it will be available with the publication of the first completed projects.
 # **link to the web-site:** 🔽
-https://gabrieleansani.github.io/gabrieleansani-website/index.html
+**https://gabrieleansani.github.io/gabrieleansani-website/index.html**
 
 
