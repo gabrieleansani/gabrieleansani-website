@@ -1,0 +1,385 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    row-gap: 0px;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 700px 300px;
+    row-gap: 0px;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.foto-description{
+    width: 90%;
+    padding-top: 10px;
+}
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(118, 114, 114);
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.welcome{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 58px;
+    line-height: 0;
+}
+.foto-description-career{
+    height: 380.53px;
+    width: 270px;
+    padding-left: 20px;
+}
+.study{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15px;
+    color: rgb(118, 114, 114);
+}
+.foto-description-tree{
+    height: 380.53px;
+    width: 270px;
+}
+.quote{
+    color: darkgray;
+}
+.foto-description-nyc{
+    height: 380.53px;
+    width: 270px;
+    padding-left: 20px;
+}
+.hobby{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(118, 114, 114);
+    padding-top: 30px; 
+}
+ 
+
+/* Mobile Styles */
+ @media only screen and (max-width: 400px) {
+    .welcome {
+      font-size: 20px;
+      padding-top: 38px;
+
+    }
+    .grid{
+        grid-template-columns: 100px 200px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .grid-2{
+        grid-template-columns: 200px 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .foto-description{
+        width: 80%;
+        padding-left: 7px;
+        padding-top: 35px;
+    }
+    .foto-description-career{
+        width: 87px;
+        height: 116px;
+        padding-top: 35px;
+    }
+    .foto-description-nyc{
+        width: 87px;
+        height: 116px;
+        padding-top: 7px;
+    }
+    .foto-description-tree{
+        width: 87px;
+        height: 116px;
+        padding-top: 28px;
+    }
+    h1, .study, .hobby, h2{
+        font-size: 10px;
+    }
+    .description, .quote{
+        font-size: 8px;
+    }
+    h1{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+    .study{
+        padding-top: 3px;
+    }
+    .foto-description-career, .foto-description-nyc{
+        padding-left: 5px;
+    }
+    .hobby{
+        padding-top: 0;
+    } 
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 569px) {
+    .welcome {
+        font-size: 20px;
+        padding-top: 38px;
+  
+      }
+      .grid{
+          grid-template-columns: 130px 260px;
+          margin-left: 0;
+          margin-right: 0;
+  
+      }
+      .grid-2{
+          grid-template-columns: 260px 130px;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      .foto-description{
+          width: 90%;
+          padding-left: 7px;
+          padding-top: 25px;
+      }
+      .foto-description-career{
+          width: 124px;
+          height: 195px;
+          padding-top: 20px;
+      }
+      .foto-description-nyc{
+          width: 124px;
+          height: 195px;
+          padding-top: 7px;
+      }
+      .foto-description-tree{
+          width: 124px;
+          height: 195px;
+          padding-top: 28px;
+      }
+      h1, .study, .hobby, h2{
+          font-size: 12px;
+      }
+      .description, .quote{
+          font-size: 10px;
+      }
+      h1{
+          padding-top: 5px;
+          padding-right: 10px;
+      }
+      .study{
+          padding-top: 25px;
+      }
+      .foto-description-career, .foto-description-nyc{
+          padding-left: 5px;
+      }
+      .hobby{
+          padding-top: 25px;
+      } 
+  }
+
+
+  
+  /* Tablet Styles 2 */
+  @media only screen and (min-width: 569px) and (max-width: 790px) {
+    .welcome {
+        font-size: 20px;
+        padding-top: 38px;
+  
+      }
+      .grid{
+          grid-template-columns: 180px 360px;
+          margin-left: 0;
+          margin-right: 0;
+  
+      }
+      .grid-2{
+          grid-template-columns: 360px 180px;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      .foto-description{
+          width: 90%;
+          padding-left: 7px;
+          padding-top: 20px;
+      }
+      .foto-description-career{
+          width: 169px;
+          height: 247px;
+          padding-top: 20px;
+      }
+      .foto-description-nyc{
+          width: 169px;
+          height: 247px;
+          padding-top: 7px;
+      }
+      .foto-description-tree{
+          width: 169px;
+          height: 247px;
+          padding-top: 28px;
+      }
+      h1, .study, .hobby, h2{
+          font-size: 15px;
+      }
+      .description, .quote{
+          font-size: 13px;
+      }
+      h1{
+          padding-top: 5px;
+          padding-right: 10px;
+      }
+      .study{
+          padding-top: 25px;
+      }
+      .foto-description-career, .foto-description-nyc{
+          padding-left: 5px;
+      }
+      .hobby{
+          padding-top: 25px;
+      } 
+  }
+
+
+   /* Tablet Styles 3 */
+   @media only screen and (min-width: 790px) and (max-width: 960px) {
+    .welcome {
+        font-size: 30px;
+        padding-top: 42px;
+  
+      }
+      .grid{
+          grid-template-columns: 255px 505px;
+          margin-left: 0;
+          margin-right: 0;
+  
+      }
+      .grid-2{
+          grid-template-columns: 505px 255px;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      .foto-description{
+          width: 90%;
+          padding-left: 7px;
+          padding-top: 20px;
+      }
+      .foto-description-career{
+          width: 241px;
+          height: 341px;
+          padding-top: 20px;
+      }
+      .foto-description-nyc{
+          width: 241px;
+          height: 341px;
+          padding-top: 7px;
+      }
+      .foto-description-tree{
+          width: 241px;
+          height: 341px;
+          padding-top: 28px;
+      }
+      h1, .study, .hobby, h2{
+          font-size: 20px;
+      }
+      .description, .quote{
+          font-size: 18px;
+      }
+      h1{
+          padding-top: 5px;
+          padding-right: 10px;
+      }
+      .study{
+          padding-top: 25px;
+      }
+      .foto-description-career, .foto-description-nyc{
+          padding-left: 5px;
+      }
+      .hobby{
+          padding-top: 25px;
+      } 
+  }
+
+  /* Desktop Styles 1 */
+  @media only screen and (min-width: 960px) and (max-width: 1180px) {
+    .welcome {
+        font-size: 40px;
+        padding-top: 80px;
+      }
+      .grid{
+          grid-template-columns: 310px 620px;
+          margin-left: 0;
+          margin-right: 0;
+  
+      }
+      .grid-2{
+          grid-template-columns: 620px 310px;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      .foto-description{
+          width: 90%;
+          padding-left: 7px;
+          padding-top: 20px;
+      }
+      .foto-description-career{
+          width: 286px;
+          height: 402px;
+          padding-top: 20px;
+      }
+      .foto-description-nyc{
+          width: 286px;
+          height: 402px;
+          padding-top: 7px;
+      }
+      .foto-description-tree{
+          width: 286px;
+          height: 402px;
+          padding-top: 28px;
+      }
+      h1, .study, .hobby, h2{
+          font-size: 30px;
+      }
+      .description, .quote{
+          font-size: 20px;
+      }
+      h1{
+          padding-top: 5px;
+          padding-right: 10px;
+      }
+      .study{
+          padding-top: 25px;
+      }
+      .foto-description-career, .foto-description-nyc{
+          padding-left: 5px;
+      }
+      .hobby{
+          padding-top: 25px;
+      } 
+  }
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
